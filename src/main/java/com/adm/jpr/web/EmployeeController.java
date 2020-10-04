@@ -9,18 +9,18 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.adm.jpr.funcionario.BasePlusCommissionEmployee;
-import com.adm.jpr.funcionario.CommissionEmployee;
-import com.adm.jpr.funcionario.Employee;
-import com.adm.jpr.funcionario.HourlyEmployee;
-import com.adm.jpr.funcionario.SalariedEmployee;
+import com.adm.jpr.employee.BasePlusCommissionEmployee;
+import com.adm.jpr.employee.CommissionEmployee;
+import com.adm.jpr.employee.Employee;
+import com.adm.jpr.employee.HourlyEmployee;
+import com.adm.jpr.employee.SalariedEmployee;
 
 @RestController
-public class TestController {
+public class EmployeeController {
 
 	private ArrayList<Employee> employeesList;
 
-	public TestController() {
+	public EmployeeController() {
 		employeesList = new ArrayList<Employee>();
 	}
 

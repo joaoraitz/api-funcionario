@@ -1,4 +1,4 @@
-package com.adm.jpr.funcionario;
+package com.adm.jpr.employee;
 
 public class BasePlusCommissionEmployee extends CommissionEmployee {
 
